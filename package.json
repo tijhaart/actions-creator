@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "description": "Redux action creator utility",
+  "main": "build/index.js",
+  "engines": {
+    "node": ">=6.9"
+  },
+  "scripts": {
+    "clean": "rm -rf ./build",
+    "start": "npm run clean && NODE_ENV=development neutrino start --use ./neutrino/core-preset.js",
+    "build": "neutrino build --use ./neutrino/core-preset.js",
+    "test": "neutrino test --use ./neutrino/test.preset.js",
+    "test:dev": "neutrino test --use ./neutrino/test.preset.js --watch"
+  },
+  "author": "Raymond Tijhaar",
+  "license": "MIT",
+  "devDependencies": {
+    "neutrino": "^5.8.0",
+    "neutrino-preset-mocha": "^5.8.0",
+    "neutrino-preset-node": "^5.8.0",
+    "neutrino-preset-jest": "5.8.0",
+    "neutrino-middleware-hot": "^5.8.0",
+    "webpack": "^2.5.0",
+    "webpack-node-externals": "^1.5.4",
+    "raw-loader": "^0.5.1",
+    "jest": "^20.0.1"
+  },
+  "dependencies": {
+    "ramda": "^0.23.0"
+  }
+}

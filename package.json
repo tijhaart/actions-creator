@@ -16,17 +16,17 @@
   "author": "Raymond Tijhaar",
   "license": "MIT",
   "devDependencies": {
-    "neutrino": "^5.8.0",
-    "neutrino-preset-mocha": "^5.8.0",
-    "neutrino-preset-node": "^5.8.0",
-    "neutrino-preset-jest": "5.8.0",
-    "neutrino-middleware-hot": "^5.8.0",
-    "webpack": "^2.5.0",
-    "webpack-node-externals": "^1.5.4",
+    "jest": "^21.1.0",
+    "neutrino": "^6.2.0",
+    "neutrino-middleware-hot": "^6.2.0",
+    "neutrino-preset-jest": "^6.2.0",
+    "neutrino-preset-mocha": "^6.2.0",
+    "neutrino-preset-node": "^6.2.0",
     "raw-loader": "^0.5.1",
-    "jest": "^20.0.1"
+    "webpack": "^3.5.6",
+    "webpack-node-externals": "^1.5.4"
   },
   "dependencies": {
-    "ramda": "^0.23.0"
+    "ramda": "^0.24.1"
   }
 }
